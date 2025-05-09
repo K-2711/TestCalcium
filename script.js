@@ -120,15 +120,8 @@ function drawBarChart(name) {
   const i2 = parseInt(document.getElementById("compare2").value);
 
   if (i1 === i2) {
-    Swal.fire({
-      title: 'So sánh 2 lần đo... thiệt á??',
-      text: 'Hai lần giống nhau thì so kiểu gì đây?',
-      imageUrl: 'https://static.wikia.nocookie.net/world-video-memes/images/e/e1/The_Rock_Guy.jpg/revision/latest?cb=20240110171418',
-      imageWidth: 300,
-      imageAlt: 'The Rock surprised',
-      confirmButtonText: 'Kee 🙃'
-    });
-    return;
+    alert("Bạn cần so sánh 2 kết quả khác nhau")
+    
   }
     
 
